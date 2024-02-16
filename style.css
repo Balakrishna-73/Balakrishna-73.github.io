@@ -83,15 +83,6 @@ section {
     padding: 10rem 9% 2rem;
 }
 
-.home {
-    display: flex;
-    align-items: center;
-    padding: 0 9%;
-   
-    background-size: cover;
-    background-position: center;
-    position:relative;
-}
 
 .home-content {
     max-width: 60rem;
@@ -126,11 +117,7 @@ section {
     font-size: 3.05rem;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke: .7px var(--main-color);
-    background-image: linear-gradient(var(--main-color), var(--main-color));
-    background-repeat: no-repeat;
-    -webkit-background-clip: text;
-    background-position: -33rem 0;
+ 
 }
 
 .home.show-animate .home-content .text-animate h3 {
